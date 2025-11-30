@@ -207,7 +207,7 @@ showTableOfContents: false
     <div class="tech-list">
       <div class="tech-pill">PyTorch</div>
       <div class="tech-pill">Scikit-Learn</div>
-      <div class="tech-pill">TensorFlow</div>>
+      <div class="tech-pill">TensorFlow</div>
       <div class="tech-pill">PyTorch Geometric</div>
       <div class="tech-pill">Numpy</div>
       <div class="tech-pill">Pandas</div>
@@ -251,15 +251,13 @@ showTableOfContents: false
       <div class="tech-pill">GitLab</div>
       <div class="tech-pill">VSCode</div>
       <div class="tech-pill">Jupyter</div>
-      
-    </div>
     </div>
   </div>
 
 </div>
 <h2 style="text-align: center; font-size: 1.8rem; margin-bottom: 2rem; border-bottom: none;">Education</h2>
 
-<div class="tri-column-grid">
+<div class="tech-grid">
 
   <div class="cv-card">
     <div class="card-header">
