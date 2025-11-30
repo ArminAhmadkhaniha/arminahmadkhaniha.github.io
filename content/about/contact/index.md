@@ -36,7 +36,7 @@ showTableOfContents: false
     border-radius: 1rem;
     border: 1px solid rgba(128, 128, 128, 0.2);
     background-color: rgba(128, 128, 128, 0.05);
-    text-decoration: none !important; /* Remove default link underline */
+    text-decoration: none !important;
     color: inherit;
     transition: all 0.3s ease;
   }
