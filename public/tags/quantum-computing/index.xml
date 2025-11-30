@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantum Computing on Home</title>
+    <link>http://localhost:1313/tags/quantum-computing/</link>
+    <description>Recent content in Quantum Computing on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ahmadkha@mcmaster.ca (Armin Ahmadkhaniha)</managingEditor>
+    <webMaster>ahmadkha@mcmaster.ca (Armin Ahmadkhaniha)</webMaster>
+    
+    <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/quantum-computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>QRTLib</title>
+      <link>http://localhost:1313/projects/qrtlib/</link>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
+      <author>ahmadkha@mcmaster.ca (Armin Ahmadkhaniha)</author>
+      <guid>http://localhost:1313/projects/qrtlib/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Home</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ahmadkha@mcmaster.ca (Armin Ahmadkhaniha)</managingEditor>
+    <webMaster>ahmadkha@mcmaster.ca (Armin Ahmadkhaniha)</webMaster>
+    
+    <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>http://localhost:1313/blog/first/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <author>ahmadkha@mcmaster.ca (Armin Ahmadkhaniha)</author>
+      <guid>http://localhost:1313/blog/first/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
