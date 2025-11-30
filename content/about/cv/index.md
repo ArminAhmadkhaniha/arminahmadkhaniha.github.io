@@ -1,6 +1,6 @@
 ---
 title: "Armin Ahmadkhaniha"
-date: 2025-11-29
+date: 2025-11-30
 description: "Quantum Software Developer & PhD Student"
 summary: "CV"
 layout: "simple"
@@ -155,6 +155,10 @@ showTableOfContents: false
     </div>
     <p style="font-size: 0.85rem; opacity: 0.8;">
       PhD Student. MSc Ranked 3rd (GPA 18.18/20). Top 1% in Graduate School National Entrance Exam among 30,000. 
+    <p>
+  </div>
+
+</div>
 <h2 style="text-align: center; font-size: 1.8rem; margin-bottom: 2rem; border-bottom: none;">Tech Stack</h2>
 
 <div class="tech-grid">
