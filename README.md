@@ -1,6 +1,5 @@
 # Armin Ahmadkhaniha - Academic Website
 
-[![Deploy to GitHub Pages](https://github.com/ArminAhmadkhaniha/arminahmadkhaniha.github.io/actions/workflows/hugo.yaml/badge.svg)](https://github.com/ArminAhmadkhaniha/arminahmadkhaniha.github.io/actions/workflows/hugo.yaml)
 [![Built with Hugo](https://img.shields.io/badge/Built%20with-Hugo-blueviolet?style=flat-square&logo=hugo)](https://gohugo.io/)
 [![Theme Blowfish](https://img.shields.io/badge/Theme-Blowfish-3b82f6?style=flat-square)](https://blowfish.page/)
 
