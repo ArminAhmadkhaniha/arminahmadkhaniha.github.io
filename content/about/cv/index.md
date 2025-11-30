@@ -7,7 +7,7 @@ layout: "simple"
 showTableOfContents: false
 ---
 
-<div style="display: flex; gap: 0.5rem; margin-bottom: 2rem; justify-content: center;">
+<div style="display: flex; gap: 0.5rem; margin-bottom: 2rem;">
   <span style="background-color: #e5e5e5; color: #333; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">h-index: 4</span>
   <span style="background-color: #e5e5e5; color: #333; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">Citations: 82</span>
 </div>
@@ -79,6 +79,19 @@ showTableOfContents: false
     font-weight: 600;
     display: flex;
     align-items: center;
+  }
+  .edu-date {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    color: #3b82f6;
+    margin-bottom: 0.5rem;
+  }
+  .edu-detail {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    line-height: 1.5;
   }
 </style>
 
@@ -166,13 +179,12 @@ showTableOfContents: false
   <div class="cv-card">
     <div class="tech-header">
       <svg class="cv-icon" style="width: 1.5rem; height: 1.5rem; color: #fbbf24;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
-      <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">Languages</h3>
+      <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">Programming Languages</h3>
     </div>
     <div class="tech-list">
       <div class="tech-pill">Python</div>
+      <div class="tech-pill">GO</div>
       <div class="tech-pill">C++</div>
-      <div class="tech-pill">Matlab</div>
-      <div class="tech-pill">JavaScript</div>
     </div>
   </div>
 
@@ -184,8 +196,6 @@ showTableOfContents: false
     <div class="tech-list">
       <div class="tech-pill">Qiskit</div>
       <div class="tech-pill">PennyLane</div>
-      <div class="tech-pill">QRTlib</div>
-      <div class="tech-pill">Cirq</div>
     </div>
   </div>
 
@@ -196,47 +206,103 @@ showTableOfContents: false
     </div>
     <div class="tech-list">
       <div class="tech-pill">PyTorch</div>
-      <div class="tech-pill">TensorFlow</div>
-      <div class="tech-pill">NumPy</div>
+      <div class="tech-pill">Scikit-Learn</div>
+      <div class="tech-pill">TensorFlow</div>>
+      <div class="tech-pill">PyTorch Geometric</div>
+      <div class="tech-pill">Numpy</div>
       <div class="tech-pill">Pandas</div>
+      <div class="tech-pill">Matplotlib</div>
     </div>
   </div>
 
   <div class="cv-card">
     <div class="tech-header">
       <svg class="cv-icon" style="width: 1.5rem; height: 1.5rem; color: #ef4444;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" /></svg>
-      <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">Simulation</h3>
+      <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">Engineering Software</h3>
     </div>
     <div class="tech-list">
       <div class="tech-pill">HFSS</div>
       <div class="tech-pill">CST</div>
       <div class="tech-pill">ADS</div>
+      <div class="tech-pill">MATLAB</div>
     </div>
   </div>
 
   <div class="cv-card">
     <div class="tech-header">
       <svg class="cv-icon" style="width: 1.5rem; height: 1.5rem; color: #3b82f6;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" /></svg>
-      <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">Web & Docs</h3>
+      <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">Web</h3>
     </div>
     <div class="tech-list">
-      <div class="tech-pill">HTML5/CSS</div>
+      <div class="tech-pill">HTML</div>
+      <div class="tech-pill">CSS</div>
       <div class="tech-pill">Hugo</div>
-      <div class="tech-pill">LaTeX</div>
-      <div class="tech-pill">Markdown</div>
     </div>
   </div>
 
   <div class="cv-card">
     <div class="tech-header">
       <svg class="cv-icon" style="width: 1.5rem; height: 1.5rem; color: #6b7280;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-      <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">Tools</h3>
+      <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">Development Tools</h3>
     </div>
     <div class="tech-list">
       <div class="tech-pill">Git</div>
-      <div class="tech-pill">Linux</div>
-      <div class="tech-pill">Docker</div>
-      <div class="tech-pill">Bash</div>
+      <div class="tech-pill">Github</div>
+      <div class="tech-pill">GitLab</div>
+      <div class="tech-pill">VSCode</div>
+      <div class="tech-pill">Jupyter</div>
+      
+    </div>
+    </div>
+  </div>
+
+</div>
+<h2 style="text-align: center; font-size: 1.8rem; margin-bottom: 2rem; border-bottom: none;">Education</h2>
+
+<div class="tri-column-grid">
+
+  <div class="cv-card">
+    <div class="card-header">
+      <svg class="cv-icon" style="color: #3b82f6;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 14l9-5-9-5-9 5 9 5z" /><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" /></svg>
+      <div>
+        <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">PhD, Computer Science</h3>
+        <div style="font-size: 0.8rem; opacity: 0.6;">McMaster University</div>
+      </div>
+    </div>
+    <div class="edu-date">Sep 2024 — Present</div>
+    <div class="edu-detail">
+      Researching Quantum Software, Algorithms, and Post-Quantum Cryptography.
+    </div>
+  </div>
+
+  <div class="cv-card">
+    <div class="card-header">
+      <svg class="cv-icon" style="color: #8b5cf6;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 14l9-5-9-5-9 5 9 5z" /><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" /></svg>
+      <div>
+        <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">MSc, Electrical Eng.</h3>
+        <div style="font-size: 0.8rem; opacity: 0.6;">University of Tehran</div>
+      </div>
+    </div>
+    <div class="edu-date">Sep 2021 — Jun 2024</div>
+    <div class="edu-detail">
+      <strong>GPA:</strong> 18.18/20<br>
+      Thesis: NISQ compatible error correction using modified Dissipative Quantum Neural Networks (DQNN).
+    </div>
+  </div>
+
+  <div class="cv-card">
+    <div class="card-header">
+      <svg class="cv-icon" style="color: #f97316;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 14l9-5-9-5-9 5 9 5z" /><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" /></svg>
+      <div>
+        <h3 style="font-size: 1rem; font-weight: bold; margin: 0;">BSc, Electrical Eng.</h3>
+        <div style="font-size: 0.8rem; opacity: 0.6;">IKIU</div>
+      </div>
+    </div>
+    <div class="edu-date">Sep 2016 — Feb 2021</div>
+    <div class="edu-detail">
+      <strong>GPA:</strong> 15.15/20<br>
+      Thesis: Microstrip Fed Log-Periodic Balun Printed Dipole (Grade 18.5/20).
+      Extra Thesis: Quantum Teleporation in distributed systems (Grade 20/20).
     </div>
   </div>
 
