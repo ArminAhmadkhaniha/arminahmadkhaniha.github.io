@@ -7,11 +7,9 @@ layout: "simple"
 showTableOfContents: false
 ---
 
-
-<div style="display: flex; gap: 0.5rem; margin-bottom: 2rem;">
+<div style="display: flex; gap: 0.5rem; margin-bottom: 2rem; justify-content: center;">
   <span style="background-color: #e5e5e5; color: #333; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">h-index: 4</span>
   <span style="background-color: #e5e5e5; color: #333; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">Citations: 82</span>
-
 </div>
 
 <style>
@@ -19,6 +17,7 @@ showTableOfContents: false
     display: grid;
     grid-template-columns: 1fr; /* Default to 1 column (Mobile) */
     gap: 1rem;
+    margin-bottom: 3rem;
   }
   
   .tech-grid {
@@ -30,16 +29,14 @@ showTableOfContents: false
   
   /* Tablet: 2 columns */
   @media (min-width: 768px) {
-    .cv-grid-container {
-      grid-template-columns: 1fr 1fr;
-    }
+    .cv-grid-container { grid-template-columns: 1fr 1fr; }
+    .tech-grid { grid-template-columns: 1fr 1fr; }
   }
 
-  /* Desktop: Force 4 columns */
+  /* Desktop: Force 4 columns for CV, 3 for Tech */
   @media (min-width: 1100px) {
-    .cv-grid-container {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+    .cv-grid-container { grid-template-columns: 1fr 1fr 1fr 1fr; }
+    .tech-grid { grid-template-columns: 1fr 1fr 1fr; }
   }
 
   /* Card Styling */
@@ -52,6 +49,7 @@ showTableOfContents: false
   }
   .cv-card:hover {
     border-color: #3b82f6; /* Blue border on hover */
+    transform: translateY(-2px);
   }
   .cv-icon {
     width: 2rem;
@@ -59,6 +57,7 @@ showTableOfContents: false
     margin-right: 0.75rem;
     opacity: 0.8;
   }
+  
   /* Tech Stack Specific Styles */
   .tech-header {
     display: flex; 
@@ -82,6 +81,7 @@ showTableOfContents: false
     align-items: center;
   }
 </style>
+
 <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; border-bottom: none;">Quick Facts</h2>
 
 <div class="cv-grid-container">
@@ -154,8 +154,8 @@ showTableOfContents: false
       <h3 style="font-size: 1.1rem; font-weight: bold; line-height: 1.2; margin: 0;">Academic</h3>
     </div>
     <p style="font-size: 0.85rem; opacity: 0.8;">
-      PhD Student. MSc Ranked 3rd (GPA 18.18/20). Top 1% in Graduate School National Entrance Exam among 30,000. 
-    <p>
+      PhD Student. MSc Ranked 3rd (GPA 18.18/20). Top 1% in Graduate School National Entrance Exam among 30,000.
+    </p>
   </div>
 
 </div>
