@@ -26,7 +26,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0 # Specify a recent Hugo version
+      HUGO_VERSION: 0.141.0 # Specify a recent Hugo version
     steps:
       - name: Install Hugo CLI
         run: |
