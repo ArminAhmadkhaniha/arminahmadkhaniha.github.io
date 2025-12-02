@@ -1,0 +1,26 @@
+disabled = false
+languageCode = "fr"
+languageName = "Français"
+weight = 2
+title = "Accueil"
+
+[params]
+  displayName = "FR"
+  isoCode = "fr"
+  rtl = false
+  dateFormat = "2 janvier 2006"
+
+[params.author]
+  name = "Armin Ahmadkhaniha"
+  email = "ahmadkha@mcmaster.ca"
+  image = "https://avatars.githubusercontent.com/u/136691249?v=4"
+  imageQuality = 96
+  headline = "Passionné de Logiciels | Chercheur en Informatique"
+  bio = "Je poursuis un doctorat en informatique à l'Université McMaster. Mes recherches portent sur le développement de logiciels quantiques, l'apprentissage automatique quantique et les algorithmes quantiques. De plus, je m'intéresse vivement à la cryptographie post-quantique."
+  
+  links = [
+      { github = "https://github.com/ArminAhmadkhaniha" },
+      { google = "https://scholar.google.com/citations?user=skUuAT4AAAAJ&hl=en" },
+      { linkedin = "https://linkedin.com/in/armin-ahmadkhaniha" },
+      { orcid = "https://orcid.org/0000-0001-8927-2456" },
+  ]
