@@ -1,0 +1,25 @@
+# -- Menu Principal (Français) --
+
+[[main]]
+  name = "Projets"
+  pageRef = "projects"
+  weight = 10
+
+# Parent Item 
+[[main]]
+  name = "À propos"
+  weight = 11
+
+# Child Item 1 
+[[main]]
+  name = "Mon CV"
+  parent = "À propos"  
+  url = "/about/cv/"
+  weight = 12
+
+# Child Item 2
+[[main]]
+  name = "Contact"
+  parent = "À propos"  
+  url = "/about/contact/" 
+  weight = 13
