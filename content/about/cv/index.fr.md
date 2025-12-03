@@ -7,7 +7,7 @@ layout: "simple"
 showTableOfContents: false
 ---
 
-<div style="display: flex; gap: 0.5rem; margin-bottom: 2rem; justify-content: center;">
+<div style="display: flex; gap: 0.5rem; margin-bottom: 2rem;">
   <span style="background-color: #e5e5e5; color: #333; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">h-index: 4</span>
   <span style="background-color: #e5e5e5; color: #333; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">Citations: 82</span>
 </div>
