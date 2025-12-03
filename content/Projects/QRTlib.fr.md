@@ -10,7 +10,7 @@ layout: "simple"
 <div style="display: flex; gap: 0.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
   <span style="background-color: #e5e5e5; color: #333; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">Python</span>
   <span style="background-color: #6929c4; color: #fff; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">Qiskit</span>
-  <span style="background-color: #e5e5e5; color: #333; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">Linear Algebra</span>
+  <span style="background-color: #e5e5e5; color: #333; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">Algèbre linéaire</span>
   <span style="background-color: #3b82f6; color: #fff; font-size: 0.75rem; font-weight: bold; padding: 0.2rem 0.6rem; border-radius: 0.25rem;">arXiv:2510.16625</span>
 </div>
 
@@ -107,6 +107,6 @@ layout: "simple"
 <div style="text-align: center; margin-top: 3rem;">
   <a href="https://arxiv.org/abs/2510.16625" target="_blank" style="background-color: #3b82f6; color: white; padding: 0.75rem 1.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; transition: background-color 0.2s;">
     <svg style="width: 1.2rem; height: 1.2rem; margin-right: 0.5rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
-    Read Full Paper on arXiv
+    Lire l'article complet sur arXiv
   </a>
 </div>
