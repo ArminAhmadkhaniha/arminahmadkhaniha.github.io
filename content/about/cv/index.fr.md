@@ -1,6 +1,6 @@
 ---
 title: "Armin Ahmadkhaniha"
-date: 2025-12-03
+date: 2025-12-10
 description: "Développeur de Logiciels Quantiques & Doctorant"
 summary: "CV"
 layout: "simple"
