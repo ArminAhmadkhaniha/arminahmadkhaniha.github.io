@@ -281,8 +281,7 @@ showTableOfContents: false
     </div>
     <div class="edu-date">Sep 2021 — Juin 2024</div>
     <div class="edu-detail">
-      <strong>GPA:</strong> 18.18/20<br>
-      Thèse : Correction d'erreurs compatible NISQ utilisant DQNN modifié.
+      Thèse : Correction d'erreurs compatible NISQ utilisant DQNN modifié (Note 20/20).
     </div>
   </div>
 
@@ -296,7 +295,6 @@ showTableOfContents: false
     </div>
     <div class="edu-date">Sep 2016 — Fév 2021</div>
     <div class="edu-detail">
-      <strong>GPA:</strong> 15.15/20<br>
       Thèse : Antenne dipôle imprimée log-périodique alimentée par microruban (Note 18.5/20).<br>
       Thèse supplémentaire : Téléportation quantique dans les systèmes distribués (Note 20/20).
     </div>

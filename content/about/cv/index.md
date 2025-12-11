@@ -283,8 +283,7 @@ showTableOfContents: false
     </div>
     <div class="edu-date">Sep 2021 — Jun 2024</div>
     <div class="edu-detail">
-      <strong>GPA:</strong> 18.18/20<br>
-      Thesis: NISQ compatible error correction using modified Dissipative Quantum Neural Networks (DQNN).
+      Thesis: NISQ compatible error correction using modified Dissipative Quantum Neural Networks (Grade 20/20).
     </div>
   </div>
 
@@ -298,7 +297,6 @@ showTableOfContents: false
     </div>
     <div class="edu-date">Sep 2016 — Feb 2021</div>
     <div class="edu-detail">
-      <strong>GPA:</strong> 15.15/20<br>
       Thesis: Microstrip Fed Log-Periodic Balun Printed Dipole (Grade 18.5/20).
       Extra Thesis: Quantum Teleporation in distributed systems (Grade 20/20).
     </div>
