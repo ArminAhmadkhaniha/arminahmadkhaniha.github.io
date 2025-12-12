@@ -1,6 +1,6 @@
 ---
 title: "Armin Ahmadkhaniha"
-date: 2025-12-10
+date: 2025-12-12
 description: "Quantum Software Developer & PhD Student"
 summary: "CV"
 layout: "simple"
