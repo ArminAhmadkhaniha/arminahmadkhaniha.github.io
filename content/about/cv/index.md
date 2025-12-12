@@ -297,7 +297,7 @@ showTableOfContents: false
     </div>
     <div class="edu-date">Sep 2016 — Feb 2021</div>
     <div class="edu-detail">
-      Thesis: Microstrip Fed Log-Periodic Balun Printed Dipole (Grade 18.5/20).
+      Thesis: Microstrip Fed Log-Periodic Balun Printed Dipole (Grade 18.5/20).<br>
       Extra Thesis: Quantum Teleporation in distributed systems (Grade 20/20).
     </div>
   </div>
